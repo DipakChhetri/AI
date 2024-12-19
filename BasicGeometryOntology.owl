@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2024/11/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/admin/ontologies/2024/11/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/admin/ontologies/2024/11/untitled-ontology-7/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquilateralTriangle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeometricShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IsoscelesTriangle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perimeter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Square"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theorems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triangle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasArea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPerimeter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Area1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Circle1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EquilateralTriangle1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IsoscelesTriangle1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perimeter1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Square1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Area"/>
+        <Class IRI="#GeometricShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circle"/>
+        <Class IRI="#GeometricShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EquilateralTriangle"/>
+        <Class IRI="#Triangle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IsoscelesTriangle"/>
+        <Class IRI="#Triangle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perimeter"/>
+        <Class IRI="#GeometricShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Square"/>
+        <Class IRI="#GeometricShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triangle"/>
+        <Class IRI="#GeometricShape"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Area"/>
+        <NamedIndividual IRI="#Area1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Circle"/>
+        <NamedIndividual IRI="#Circle1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EquilateralTriangle"/>
+        <NamedIndividual IRI="#EquilateralTriangle1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IsoscelesTriangle"/>
+        <NamedIndividual IRI="#IsoscelesTriangle1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perimeter"/>
+        <NamedIndividual IRI="#Perimeter1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Square"/>
+        <NamedIndividual IRI="#Square1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasArea"/>
+        <NamedIndividual IRI="#Circle1"/>
+        <NamedIndividual IRI="#Area1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPerimeter"/>
+        <NamedIndividual IRI="#Circle1"/>
+        <NamedIndividual IRI="#Perimeter1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasArea"/>
+        <NamedIndividual IRI="#EquilateralTriangle1"/>
+        <NamedIndividual IRI="#Area1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPerimeter"/>
+        <NamedIndividual IRI="#EquilateralTriangle1"/>
+        <NamedIndividual IRI="#Perimeter1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasArea"/>
+        <NamedIndividual IRI="#IsoscelesTriangle1"/>
+        <NamedIndividual IRI="#Area1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPerimeter"/>
+        <NamedIndividual IRI="#IsoscelesTriangle1"/>
+        <NamedIndividual IRI="#Perimeter1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasArea"/>
+        <NamedIndividual IRI="#Square1"/>
+        <NamedIndividual IRI="#Area1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPerimeter"/>
+        <NamedIndividual IRI="#Square1"/>
+        <NamedIndividual IRI="#Perimeter1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#Area1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#Circle1"/>
+        <Literal>Circle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#EquilateralTriangle1"/>
+        <Literal>Equilateral Triangle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#IsoscelesTriangle1"/>
+        <Literal>Isosceles Triangle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#Perimeter1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#Square1"/>
+        <Literal>Square1</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasArea"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPerimeter"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#description"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
